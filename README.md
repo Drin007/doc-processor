@@ -16,6 +16,13 @@
 
 ## ▶️ How to Run
 
+[▶️ Watch Demo](https://drive.google.com/file/d/1E3zU2ElXpgF0Ablmt-rurGcwA3TqdEY9/view?usp=sharing)
+
+
+## 📸 Screenshots
+
+![App UI](./screenshots/ui.png)
+
 ### Backend
 cd backend
 pip install -r requirements.txt
@@ -28,3 +35,4 @@ celery -A celery_worker.celery worker --loglevel=info --pool=solo
 cd frontend
 npm install
 npm start
+
